@@ -259,7 +259,8 @@ public class ATM {
         receiptContent.append("Mobile Number: ").append(account.mobileNumber).append("\n");
         receiptContent.append("Balance: ").append(balance).append("\n");
         receiptContent.append("Transaction History:\n");
-        receiptContent.append("THANK  YOU------ ");
+
+        
         List<String> transactionHistory = account.getTransactionHistory();
         for (String transaction : transactionHistory) {
             receiptContent.append(transaction).append("\n");
