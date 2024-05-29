@@ -19,7 +19,7 @@ This Java project simulates an Automated Teller Machine (ATM) system. Users can 
     ```
 3. Compile the project:
     ```bash
-    javac ATM.java
+    java ATM.java
     ```
 4. Run the project:
     ```bash
@@ -35,6 +35,8 @@ This Java project simulates an Automated Teller Machine (ATM) system. Users can 
     - Check balance
     - Show receipt
     - Print receipt
+    - Show Transaction History
+    - Currency Converter
     - Logout
 
 ### Example
